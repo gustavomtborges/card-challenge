@@ -1,0 +1,23 @@
+{
+  "name": "card-challenge",
+  "version": "1.0.0",
+  "description": "Make a dashboard of cards.",
+  "main": "",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavomtborges/card-challenge.git"
+  },
+  "author": "Gustavo Martins T Borges",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gustavomtborges/card-challenge/issues"
+  },
+  "homepage": "https://github.com/gustavomtborges/card-challenge#readme",
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  }
+}
