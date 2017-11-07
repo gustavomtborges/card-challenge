@@ -39,6 +39,13 @@
                 </div>
                 <div id=<?php echo $card -> id ?> class="card-body">
                 </div>
+                <div class="card-footer">
+                <?php if ($card -> id == 'card-1') : ?>
+                <button id="randomValues" type="button" class="btn btn-primary">
+                Random Values
+                </button>
+                <?php endif; ?>
+                </div>
             </div>
         </div>
           <?php endforeach; ?>

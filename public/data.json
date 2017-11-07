@@ -14,27 +14,27 @@
     },
     {
       "id": "card-4",
-       "value": "card 4"
+       "value": "Pie Chart"
     },
     {
       "id": "card-5",
-       "value": "card 5"
+       "value": "Scatter plot"
     },
     {
       "id": "card-6",
-       "value": "card 6"
+       "value": "Angular gauge"
     },
     {
       "id": "card-7",
-       "value": "card 7"
+       "value": "Bell curve"
     },
     {
       "id": "card-8",
-       "value": "card 8"
+       "value": "Collumn range"
     },
     {
       "id": "card-9",
-       "value": "card 9"
+       "value": "Solid gauge"
     }
   ]
 }
