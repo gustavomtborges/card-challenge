@@ -1,7 +1,17 @@
 const Highcharts = require('highcharts');
 require('highcharts/modules/exporting')(Highcharts);
 
-function chart1() {
+export function randomValuesChart1() {
+  chart1();
+}
+
+async function fetchRandom() {
+  let response = await fetch('../random-bar-chart.php');
+  return await response.json();
+};
+
+async function chart1() {
+  const data = await fetchRandom();
   Highcharts.chart('card-1', {
     chart: {
       type: 'bar'
@@ -19,10 +29,10 @@ function chart1() {
     },
     series: [{
       name: 'Jane',
-      data: [1, 0, 4]
+      data: data.jane
     }, {
       name: 'John',
-      data: [5, 7, 3]
+      data: data.john
     }]
   });
 };
