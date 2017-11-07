@@ -1,0 +1,40 @@
+{
+  "cards": [
+    {
+      "id": "card-1",
+       "value": "Basic Bar"
+    },
+    {
+      "id": "card-2",
+       "value": "Basic line"
+    },
+    {
+      "id": "card-3",
+       "value": "card 3"
+    },
+    {
+      "id": "card-4",
+       "value": "card 4"
+    },
+    {
+      "id": "card-5",
+       "value": "card 5"
+    },
+    {
+      "id": "card-6",
+       "value": "card 6"
+    },
+    {
+      "id": "card-7",
+       "value": "card 7"
+    },
+    {
+      "id": "card-8",
+       "value": "card 8"
+    },
+    {
+      "id": "card-9",
+       "value": "card 9"
+    }
+  ]
+}
