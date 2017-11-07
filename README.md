@@ -7,11 +7,12 @@ Make a dashboard of cards.
 3. Highcharts - https://www.highcharts.com/
 4. (Aditional) php page to populate one of your cards with a JSON file.
 
-# Install and run localy
+# Install and Run
 
 1. Install PHP 5.6
 2. Install Node.js
 3. `$ npm install`
-4. `$ npm build`
-5. `$ php -S 0.0.0.0:8080`
-6. go to http://localhost:8080
+4. `$ npm run build`
+5. `$ cd public/`
+6. `$ php -S 0.0.0.0:8080`
+7. go to http://localhost:8080
