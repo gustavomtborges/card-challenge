@@ -13,6 +13,5 @@ Make a dashboard of cards.
 2. Install Node.js
 3. `$ npm install`
 4. `$ npm run build`
-5. `$ cd public/`
-6. `$ php -S 0.0.0.0:8080`
+6. `$ cd public/ && php -S 0.0.0.0:8080 or npm start`
 7. go to http://localhost:8080
